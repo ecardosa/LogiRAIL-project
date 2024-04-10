@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <requirement-specification>
-<req_spec title="Encargado"  doc_id="REQ-ENC"  >
+<req_spec title="LogiRAIL-project"  doc_id="REQ001"  >
 	<revision><![CDATA[1]]></revision>
 	<type><![CDATA[1]]></type>
-	<node_order><![CDATA[2]]></node_order>
+	<node_order><![CDATA[0]]></node_order>
 	<total_req><![CDATA[0]]></total_req>
-	<scope><![CDATA[<p>Aqui son todos los requisitos del encargado</p>]]></scope>
+	<scope><![CDATA[<p>El proyecto es una aplicaci&oacute;n dise&ntilde;ada para facilitar la gesti&oacute;n de la asistencia de trabajadores en una oficina. La aplicaci&oacute;n cuenta con dos roles principales: trabajadores y encargados.</p>]]></scope>
 		<req_spec title="Requisito Funcionales"  doc_id="RF"  >
 	<revision><![CDATA[1]]></revision>
 	<type><![CDATA[1]]></type>
 	<node_order><![CDATA[0]]></node_order>
 	<total_req><![CDATA[0]]></total_req>
 	<scope><![CDATA[<p>Esto son los requisitos funcionales</p>]]></scope>
+		<req_spec title="Encargado"  doc_id="RF 1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
 			<requirement>
 		<docid><![CDATA[RF 1.1]]></docid>
 		<title><![CDATA[Verificar la asistencia]]></title>
@@ -49,12 +55,19 @@
 		
 	</requirement>
 </req_spec>
+</req_spec>
 <req_spec title="Requisitos No Funcionales"  doc_id="RNF"  >
 	<revision><![CDATA[1]]></revision>
 	<type><![CDATA[1]]></type>
 	<node_order><![CDATA[1]]></node_order>
 	<total_req><![CDATA[0]]></total_req>
 	<scope><![CDATA[<p>Aqui son los requisitos no funcionales</p>]]></scope>
+		<req_spec title="Encargado"  doc_id="RNF 2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
 			<requirement>
 		<docid><![CDATA[RNF 2.1]]></docid>
 		<title><![CDATA[Autenticación]]></title>
@@ -91,6 +104,7 @@
 		<expected_coverage><![CDATA[1]]></expected_coverage>
 		
 	</requirement>
+</req_spec>
 </req_spec>
 </req_spec>
 </requirement-specification>
