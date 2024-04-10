@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Encargado"  doc_id="REQ-ENC"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Aqui son todos los requisitos del encargado</p>]]></scope>
+		<req_spec title="Requisito Funcionales"  doc_id="RF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[0]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Esto son los requisitos funcionales</p>]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 1.1]]></docid>
+		<title><![CDATA[Verificar la asistencia]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Este requisito implica la <strong>capacidad </strong>del sistema para que los encargados puedan confirmar la presencia de los <strong>trabajadores</strong> en la <strong>oficina</strong></p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.2]]></docid>
+		<title><![CDATA[Generación de informes]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Este requisito se refiere a la capacidad del sistema para <strong>recopilar datos</strong> sobre la asistencia de los <strong>trabajadores </strong>y generar <strong>informes </strong>detallados</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 1.3]]></docid>
+		<title><![CDATA[Generación de reportes]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>Sirve para que el usuario de la aplicacion, puede enviar un comentario si tiene problemas con la aplicacion</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+<req_spec title="Requisitos No Funcionales"  doc_id="RNF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Aqui son los requisitos no funcionales</p>]]></scope>
+			<requirement>
+		<docid><![CDATA[RNF 2.1]]></docid>
+		<title><![CDATA[Autenticación]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Este requisito se refiere a la <strong>seguridad del sistema</strong>, asegurando que solo usuarios <strong>autorizados </strong>puedan acceder a las funcionalidades de la aplicaci&oacute;n mediante la <strong>verificaci&oacute;n </strong>de credenciales, como <strong>nombres de usuario</strong> y <strong>contrase&ntilde;as</strong>.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 2.2]]></docid>
+		<title><![CDATA[Gestión de horarios]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Este requisito implica la capacidad del sistema para <strong>administrar los horarios laborables</strong> de los <strong>trabajadores</strong>, incluyendo la asignaci&oacute;n de <strong>turnos</strong>, la gesti&oacute;n de <strong>cambios </strong>de horario y la coordinaci&oacute;n de las horas de trabajo del personal</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 2.3]]></docid>
+		<title><![CDATA[Gestión de vacaciones]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>Este requisito implica la capacidad del sistema para gestionar las solicitudes de vacaciones de los trabajadores, incluyendo la aprobaci&oacute;n o rechazo de las solicitudes, el seguimiento de los d&iacute;as de vacaciones disponibles y la coordinacion de los per&iacute;odos de descanso del personal.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</req_spec>
+</requirement-specification>
