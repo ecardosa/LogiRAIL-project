@@ -25,5 +25,3 @@ El sistema de control de asistencia LogiRAIL tiene tres usuarios finales: trabaj
 
 #### Administrador
 ![Diagrama de administrador](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/administrador/administrador.png)
-
-
