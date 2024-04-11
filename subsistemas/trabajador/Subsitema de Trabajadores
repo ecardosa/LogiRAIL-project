@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Requisitos Funcionales"  doc_id="RF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[0]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<req_spec title="Subsistema de Trabajadores"  doc_id="RF 2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 2.1]]></docid>
+		<title><![CDATA[Autentificación]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Los trabajadores tienen que autentificarse para poder acceder a la aplicaci&oacute;n (Iniciar sesi&oacute;n).</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.2]]></docid>
+		<title><![CDATA[Confirmación de asistencia]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Una vez dentro de la aplicaci&oacute;n, el trabajador puede confirmar la asistencia de la jornada laboral que le toca.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.3]]></docid>
+		<title><![CDATA[Ver historial]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>El cliente puede ver el historial con todos los d&iacute;as laborales, en los cuales puede salir que la confirmaci&oacute;n ha sido validada o no.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.4]]></docid>
+		<title><![CDATA[Generación de avisos]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>El trabajador puede reportar un aviso o informe a trav&eacute;s de la aplicaci&oacute;n.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</req_spec>
+<req_spec title="Requisitos no Funcionales"  doc_id="RNF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+<req_spec title="Requisitos de Datos"  doc_id="RD"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+</requirement-specification>
