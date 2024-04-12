@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rvQVQ94wxyu6P5vZ6NSP" name="Page-1">
-        <mxGraphModel dx="942" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="942" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,30 +8,24 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Verificar la asistencia empleado" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="510" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="540" y="520" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Ver historial empleado" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="510" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="190" y="520" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Ver historial (empleado)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="550" y="410" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="6" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="6" target="21">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry x="540" y="430" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="6" target="3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="43" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#000000;entryX=0.963;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="18">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="300" y="460" as="targetPoint"/>
+                        <mxPoint x="300" y="470" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="6" value="Gestionar empleado" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="365" y="510" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="365" y="520" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="15" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -49,13 +43,19 @@
                     <mxGeometry x="365" y="610" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Notificar incidencias" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="180" y="410" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="21" value="Gestionar calendario empleado" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="365" y="410" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="190" y="430" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Validación de autenticación (Sistema de autenticación)&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="610" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="540" y="610" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Gestionar calendario empleado" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="6" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="6" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
