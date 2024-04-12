@@ -13,12 +13,12 @@ El Sistema de control de asistencia LogiRAIL es una solución diseñada para aut
 Con el Sistema de control de asistencia LogiRAIL, la empresa LogiRAIL podrá optimizar la gestión de la asistencia de sus empleados, mejorar la puntualidad y la productividad, y obtener información valiosa para la toma de decisiones estratégicas en el ámbito de recursos humanos.
 
 ### Sistema de usuarios
-El sistema de control de asistencia LogiRAIL tiene tres usuarios finales: trabajador, encargado y administrador.
+El sistema de control de asistencia LogiRAIL tiene tres usuarios finales: empleado, encargado y administrador.
 
 ![Diagrama general](https://github.com/joanpaneque/LogiRAIL-project/blob/main/diagramaGeneral/diagramaGeneral.png)
 
-#### Trabajador
-![Diagrama de trabajador](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/trabajador/trabajador.png)
+#### Empleado
+![Diagrama de trabajador](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/empleado/empleado.png)
 
 #### Encargado
 ![Diagrama de encargado](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/encargado/encargado.png)
