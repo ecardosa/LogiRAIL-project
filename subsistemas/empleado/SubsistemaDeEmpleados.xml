@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Subsistema de Empleados"  doc_id="RF 2"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 2.1]]></docid>
+		<title><![CDATA[Solicitar autenticación]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>0</node_order>
+		<description><![CDATA[<p>Los empleados tienen que solicitar una autenticaci&oacute;n en la aplicaci&oacute;n con&nbsp;su correo electr&oacute;nico y contrase&ntilde;a.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.2]]></docid>
+		<title><![CDATA[Registro de asistencia]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Una vez dentro de la aplicaci&oacute;n, el empleado puede registrar la asistencia con el d&iacute;a y la hora.</p>
+
+<p>El registro puede ser:</p>
+
+<p>- Registro de asistencia de entrada.</p>
+
+<p>- Registro de asistencia de salida.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.3]]></docid>
+		<title><![CDATA[Ver historial de asistencia]]></title>
+		<version>1</version>
+		<revision>3</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>El empleado puede ver un historial con todos los registros de asistencia que ha registrado, puede ver si ha sido validado o no.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.4]]></docid>
+		<title><![CDATA[Notificar incidencia]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>El empleado puede notificar incidencias si en el historial de asistencia alg&uacute;n registro ha sido rechazado o no validado.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.5]]></docid>
+		<title><![CDATA[Gestionar calendario]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>El empleado tiene un calendario donde puede hacer diversas acciones:</p>
+
+<p>- Ver horarios.</p>
+
+<p>- Ver vacaciones.</p>
+
+<p>- Pedir vacaciones.</p>
+
+<p>- Notificar eventos (faltas, citas m&eacute;dicas, etc.).</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 2.6]]></docid>
+		<title><![CDATA[Ver la prima de asistencia]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>5</node_order>
+		<description><![CDATA[<p>El empleado puede ver el total de su prima de asistencia.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+<req_spec title="Historias de usuario"  doc_id="RF 2 HU"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[6]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		</req_spec>
+</req_spec>
+</requirement-specification>
