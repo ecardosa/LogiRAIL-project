@@ -10,9 +10,9 @@
 		<docid><![CDATA[RF 4.1]]></docid>
 		<title><![CDATA[Validación de autenticación]]></title>
 		<version>1</version>
-		<revision>1</revision>
+		<revision>2</revision>
 		<node_order>1</node_order>
-		<description><![CDATA[<p>Valida la solicitud de autentificaci&oacute;n con el correo electr&oacute;nico y contrase&ntilde;a que ha puesto el empleado.</p>]]></description>
+		<description><![CDATA[<p>Valida la solicitud de autentificaci&oacute;n con el correo electr&oacute;nico y contrase&ntilde;a que ha puesto el usuario.</p>]]></description>
 		<status><![CDATA[D]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
@@ -22,9 +22,9 @@
 		<docid><![CDATA[RF 4.2]]></docid>
 		<title><![CDATA[Gestión de usuarios]]></title>
 		<version>1</version>
-		<revision>1</revision>
+		<revision>2</revision>
 		<node_order>2</node_order>
-		<description><![CDATA[<p>Gestiona a todos los usuarios.</p>]]></description>
+		<description><![CDATA[<p>Gestiona a todos los usuarios, puede editar, crear y eliminar.</p>]]></description>
 		<status><![CDATA[D]]></status>
 		<type><![CDATA[3]]></type>
 		<expected_coverage><![CDATA[1]]></expected_coverage>
