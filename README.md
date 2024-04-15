@@ -30,4 +30,4 @@ El sistema de control de asistencia LogiRAIL tiene tres usuarios finales: emplea
 ![Diagrama del subsitema de autenticación](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/sistema%20de%20autenticaci%C3%B3n/sistemaDeAutenticacion.png)
 
 # Prototipos
-![Prototipo trabajador](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/prototipo/prototipo.png)
+![Prototipo empleado](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/prototipo/prototipoEmpleado.png)
