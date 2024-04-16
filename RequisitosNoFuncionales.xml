@@ -42,5 +42,17 @@
 		<expected_coverage><![CDATA[1]]></expected_coverage>
 		
 	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 4]]></docid>
+		<title><![CDATA[Multiplatadorma]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>La aplicaci&oacute;n va a ser usada tanto en ordenadores como en m&oacute;viles, por lo tanto, ha de tener un dise&ntilde;o accesible para todos los tipos de dispositivos y tiene que funcionar de manera consistente en todas las plataformas.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
 </req_spec>
 </requirement-specification>
