@@ -98,6 +98,193 @@
 	<node_order><![CDATA[6]]></node_order>
 	<total_req><![CDATA[0]]></total_req>
 	<scope><![CDATA[]]></scope>
-		</req_spec>
+		<req_spec title="Registrar asistencia"  doc_id="HU 2.1"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[HU 2.1.1]]></docid>
+		<title><![CDATA[Solicitar autenticación]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Entrar el correo electr&oacute;nico y la contrase&ntilde;a y solicitar la autenticaci&oacute;n</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.1.2]]></docid>
+		<title><![CDATA[Tipo de registro de asistencia]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Elegir entre las dos opciones:</p>
+
+<p>- Entrada&nbsp;</p>
+
+<p>- Salida</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.1.3]]></docid>
+		<title><![CDATA[Insertar día y hora]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>Insertar el d&iacute;a y la hora actual.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.1.4]]></docid>
+		<title><![CDATA[Fuera del horario]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>4</node_order>
+		<description><![CDATA[<p>Si el registro se hace fuera del horario que le toca al empleado, se ver&aacute; reflejado en la prima de asistencia.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+<req_spec title="Gestionar calendario"  doc_id="HU 2.2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[HU 2.2.1]]></docid>
+		<title><![CDATA[Solicitar autenticación]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Entrar el correo electr&oacute;nico y la contrase&ntilde;a y solicitar la autenticaci&oacute;n.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.2.2]]></docid>
+		<title><![CDATA[Ver horarios]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Ver la hora de entrada y salida laboral del mes entero.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+<req_spec title="Pedir vacaciones"  doc_id="HU 2.2 2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[HU 2.2 2.1]]></docid>
+		<title><![CDATA[Seleccionar Dia de comienzo]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Seleccionar en el calendario el d&iacute;a de comienzo de las vacaciones.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.2 2.2]]></docid>
+		<title><![CDATA[Seleccionar día final]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Seleccionar el d&iacute;a final de las vacaciones.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.2 2.3]]></docid>
+		<title><![CDATA[Validación]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>3</node_order>
+		<description><![CDATA[<p>No se validar&aacute;n las vacaciones si:<br />
+<br />
+- Si el siguiente d&iacute;a despu&eacute;s de finalizar las vacaciones es fiesta.</p>
+
+<p>- Si no lo solicitas con al menos 2 meses de antelaci&oacute;n.</p>
+
+<p>- Si los d&iacute;as solicitados superan los d&iacute;as que el usuario tiene.</p>
+
+<p>- Si empieza en un d&iacute;a inh&aacute;bil.</p>
+
+<p>&nbsp;</p>
+
+<p>Una vez comprobado todos los puntos, se podr&aacute;n conceder las vacaciones.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+<req_spec title="Nofiticar eventos"  doc_id="HU 2.2 3"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[HU 2.2 3.1]]></docid>
+		<title><![CDATA[Seleccionar el tipo de evento]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Tipo de ausencia justificada a elegir:</p>
+
+<p>- Cita m&eacute;dica<br />
+- Cuidado familiar<br />
+- Fallecimiento de un familiar<br />
+- Accidente o enfermedad grave de un familiar<br />
+- Hospitalizaci&oacute;n o intervenci&oacute;n quir&uacute;rgica de familiar sin hospitalizaci&oacute;n pero con reposo domiciliario<br />
+- Matrimonio<br />
+- Nacimiento de hijo/a<br />
+- Mudanza o cambio de domicilio</p>
+
+<p>&nbsp;</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[HU 2.2 3.2]]></docid>
+		<title><![CDATA[Seleccionar día/s]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Elegir los d&iacute;as de ausencia.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</req_spec>
+</req_spec>
 </req_spec>
 </requirement-specification>
