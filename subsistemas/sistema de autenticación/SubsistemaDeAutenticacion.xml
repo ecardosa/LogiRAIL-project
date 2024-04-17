@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Subsistema de Autentificación"  doc_id="RF 4"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+			<requirement>
+		<docid><![CDATA[RF 4.1]]></docid>
+		<title><![CDATA[Validación de autenticación]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Valida la solicitud de autentificaci&oacute;n con el correo electr&oacute;nico y contrase&ntilde;a que ha puesto el usuario.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RF 4.2]]></docid>
+		<title><![CDATA[Gestión de usuarios]]></title>
+		<version>1</version>
+		<revision>2</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<p>Gestiona a todos los usuarios, puede editar, crear y eliminar.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		
+	</requirement>
+</req_spec>
+</requirement-specification>
