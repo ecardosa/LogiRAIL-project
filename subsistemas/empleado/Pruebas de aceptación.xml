@@ -42,9 +42,9 @@
 	<step_number><![CDATA[3]]></step_number>
 	<actions><![CDATA[<p>Introducir:</p>
 
-<p>- Tipo de asistencia</p>
+<p>- Tipo de asistencia: Entrada</p>
 
-<p>- D&iacute;a y hora</p>
+<p>- D&iacute;a y hora: 29/04/2024 a las 9:00.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Asistencia confirmada</p>
 ]]></expectedresults>
@@ -86,7 +86,11 @@
 
 <step>
 	<step_number><![CDATA[3]]></step_number>
-	<actions><![CDATA[<p>Escribir incidencia y enviarla</p>
+	<actions><![CDATA[<p>Escribir incidencia:</p>
+
+<p>- Soy la empleada Emma Cardosa Mart&iacute;nez,&nbsp;la asistencia del d&iacute;a 29/04/2024&nbsp;no se me ha verificado correctamente, pone que no asist&iacute; y s&iacute; que lo hice, gracias.</p>
+
+<p>Y enviar la incidencia</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Incidencia enviada</p>
 ]]></expectedresults>
@@ -137,7 +141,13 @@
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Seleccionar los d&iacute;as deseados y enviar</p>
+	<actions><![CDATA[<p>Seleccionar los d&iacute;as deseados</p>
+
+<p>- Seleccionar d&iacute;a de comienzo, 12 de noviembre.</p>
+
+<p>- Seleccionar d&iacute;a final, 20 de noviembre.</p>
+
+<p>Enviar petici&oacute;n.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Esperar validaci&oacute;n</p>
 ]]></expectedresults>
@@ -188,7 +198,11 @@
 
 <step>
 	<step_number><![CDATA[4]]></step_number>
-	<actions><![CDATA[<p>Seleccionar d&iacute;a y hora del evento</p>
+	<actions><![CDATA[<p>Seleccionar d&iacute;a y hora del evento:</p>
+
+<p>&nbsp;</p>
+
+<p>- D&iacute;a 2 de mayo, todo el d&iacute;a.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Validaci&oacute;n</p>
 ]]></expectedresults>
@@ -198,6 +212,8 @@
 <step>
 	<step_number><![CDATA[5]]></step_number>
 	<actions><![CDATA[<p>Seleccionar el tipo de asistencia justificada.</p>
+
+<p>- Cita m&eacute;dica.</p>
 ]]></actions>
 	<expectedresults><![CDATA[<p>Validacion</p>
 ]]></expectedresults>
