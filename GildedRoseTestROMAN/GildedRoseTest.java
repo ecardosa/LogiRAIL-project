@@ -57,18 +57,29 @@ class GildedRoseTest {
         );
     }
     
-    
-
-    @Test @DisplayName(value= "Sulfuras Test")
+    @Test
+    @DisplayName("Prueba de Sulfuras")
     void sulfurasQuality() {
-        
-        Item[] items = new Item[] { new Item("Sulfuras, Hand of Ragnaros", 11, 80) };
+        Item[] items = new Item[] { new Item("Sulfuras, Mano de Ragnaros", 11, 80) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("Sulfuras, Hand of Ragnaros", items[0].name, "Name should remain unchanged");
-        assertEquals(11, items[0].sellIn, "SellIn should remain unchanged");
-        assertEquals(80, items[0].quality, "Quality should remain unchanged");
+        assertEquals("Sulfuras, Mano de Ragnaros", items[0].name, "El nombre debería permanecer igual");
+        assertEquals(11, items[0].sellIn, "SellIn debería permanecer igual");
+        assertEquals(80, items[0].quality, "La calidad debería permanecer igual");
     }
+
+    @Test
+    @DisplayName("Prueba de Queso Brie envejecido")
+    void agedBrieQuality() {
+        Item[] items = new Item[] { new Item("Queso Brie envejecido", 10, 4) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals("Queso Brie envejecido", items[0].name, "El nombre debería permanecer igual");
+        assertEquals(3, items[0].sellIn, "SellIn debería disminuir en 1");
+        assertEquals(50, items[0].quality, "La calidad debería aumentar en 1");
+    }
+
+
     
     
     
