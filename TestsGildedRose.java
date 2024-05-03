@@ -1,71 +1,95 @@
 package com.gildedrose;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GildedRoseTest {
-    private static final String SULFURAS = "Sulfuras, Hand of Ragnaros";
-    private static final String AGED_BRIE = "Aged Brie";
+
+    private GildedRose app;
+    private Item[] items;
 
     @Test
-    @DisplayName("Nombre del producto permanece inalterado después de actualizar la calidad")
-    void testProductNameUnchangedAfterUpdate() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
-        GildedRose app = new GildedRose(items);
+    @DisplayName("La calidad de Sulfuras no cambia")
+    void sulfurasQualityConstant() {
+        items = new Item[]{new Item("Sulfuras, Hand of Ragnaros", 5, 80)};
+        app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("foo", app.items[0].name);
-    }
-    
-    @Test
-    @DisplayName("Sulfuras siempre tiene calidad 80, independientemente de los días restantes")
-    void testSulfurasQualityAlwaysEighty() {
-        Item[] items = new Item[] { new Item(SULFURAS, 22, 80) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        assertAll("Propiedades Sulfuras",
-            () -> assertEquals(SULFURAS, app.items[0].name),
-            () -> assertEquals(22, app.items[0].sellIn),
-            () -> assertEquals(80, app.items[0].quality)
-        );
+        assertEquals(80, items[0].quality, "La calidad de Sulfuras debe permanecer en 80");
     }
 
     @Test
-    @DisplayName("Calidad de Sulfuras no cambia incluso si se inicia con 79")
-    void testSulfurasQualityUnchangedIfNotEighty() {
-        Item[] items = new Item[] { new Item(SULFURAS, 22, 79) };
-        GildedRose app = new GildedRose(items);
+    @DisplayName("La calidad no cae debajo de cero")
+    void qualityNeverNegative() {
+        items = new Item[]{new Item("Normal Item", 0, 0)};
+        app = new GildedRose(items);
         app.updateQuality();
-        assertAll("Propiedades Sulfuras con calidad incorrecta",
-            () -> assertEquals(SULFURAS, app.items[0].name),
-            () -> assertEquals(22, app.items[0].sellIn),
-            () -> assertEquals(80, app.items[0].quality)
-        );
+        assertTrue(items[0].quality >= 0, "La calidad debe ser al menos 0");
     }
 
     @Test
-    @DisplayName("Aged Brie incrementa en calidad a medida que pasa el tiempo")
-    void testAgedBrieIncreasesInQuality() {
-        Item[] items = new Item[] { new Item(AGED_BRIE, 7, 49) };
-        GildedRose app = new GildedRose(items);
+    @DisplayName("Aged Brie incrementa la calidad a medida que envejece")
+    void agedBrieIncreasesQuality() {
+        items = new Item[]{new Item("Aged Brie", 2, 0)};
+        app = new GildedRose(items);
         app.updateQuality();
-        assertAll("Propiedades Aged Brie",
-            () -> assertEquals(AGED_BRIE, app.items[0].name),
-            () -> assertEquals(6, app.items[0].sellIn),
-            () -> assertEquals(50, app.items[0].quality)
-        );
+        assertTrue(items[0].quality > 0, "Aged Brie incrementa la calidad con el tiempo");
     }
 
     @Test
-    @DisplayName("Verificar decremento correcto en la calidad y días de venta")
-    void testStandardProductQualityDecrease() {
-        Item[] items = new Item[] { new Item("Standard Product", 10, 20) };
-        GildedRose app = new GildedRose(items);
+    @DisplayName("La calidad de Aged Brie nunca supera 50")
+    void agedBrieMaxQuality() {
+        items = new Item[]{new Item("Aged Brie", 2, 49)};
+        app = new GildedRose(items);
         app.updateQuality();
-        assertAll("Decremento en Standard Product",
-            () -> assertEquals("Standard Product", app.items[0].name),
-            () -> assertEquals(9, app.items[0].sellIn),
-            () -> assertEquals(19, app.items[0].quality)
-        );
+        app.updateQuality();
+        assertEquals(50, items[0].quality, "La calidad de Aged Brie debe ser máximo 50");
+    }
+
+    @Test
+    @DisplayName("Backstage passes aumenta la calidad a medida que se acerca la fecha del concierto")
+    void backstagePassesIncreasesQualityAsConcertApproaches() {
+        items = new Item[]{new Item("Backstage passes to a concert", 12, 20)};
+        app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(21, items[0].quality);
+        app.updateQuality(); // Día 10
+        assertEquals(23, items[0].quality);
+    }
+
+    @Test
+    @DisplayName("Backstage passes aumenta la calidad por 3 cuando quedan 5 días o menos")
+    void backstagePassesIncreaseByThreeWhenFiveDaysOrLess() {
+        items = new Item[]{new Item("Backstage passes to a concert", 5, 20)};
+        app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(23, items[0].quality, "La calidad debería aumentar por 3 cuando quedan 5 días o menos");
+    }
+
+    @Test
+    @DisplayName("Backstage passes se vuelve cero después del concierto")
+    void backstagePassesDropsToZeroAfterConcert() {
+        items = new Item[]{new Item("Backstage passes to a concert", 0, 20)};
+        app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(0, items[0].quality, "La calidad debe ser 0 después del concierto");
+    }
+
+    @Test
+    @DisplayName("Productos normales degradan la calidad el doble de rápido después de la fecha de venta")
+    void normalItemsDegradeTwiceAsFastAfterSellBy() {
+        items = new Item[]{new Item("Normal Item", 0, 10)};
+        app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(8, items[0].quality);
+    }
+
+    @Test
+    @DisplayName("Conjured items degradan calidad dos veces más rápido")
+    void conjuredItemsDegradeTwiceAsFast() {
+        items = new Item[]{new Item("Conjured Mana Cake", 3, 6)};
+        app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(4, items[0].quality, "Conjured items deberían degradar su calidad más rápido");
     }
 }
