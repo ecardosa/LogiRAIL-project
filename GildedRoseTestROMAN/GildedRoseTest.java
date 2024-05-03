@@ -63,9 +63,11 @@ class GildedRoseTest {
         Item[] items = new Item[] { new Item("Sulfuras, Mano de Ragnaros", 11, 80) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("Sulfuras, Mano de Ragnaros", items[0].name, "El nombre debería permanecer igual");
-        assertEquals(11, items[0].sellIn, "SellIn debería permanecer igual");
-        assertEquals(80, items[0].quality, "La calidad debería permanecer igual");
+        assertAll("properties",
+            () -> assertEquals("Sulfuras, Mano de Ragnaros", items[0].name, "Nombre del producto"),
+            () -> assertEquals(11, items[0].sellIn, "Fecha recomendada"),
+            () -> assertEquals(80, items[0].quality, "Calidad final")
+        );
     }
 
     @Test
@@ -74,13 +76,12 @@ class GildedRoseTest {
         Item[] items = new Item[] { new Item("Queso Brie envejecido", 10, 4) };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals("Queso Brie envejecido", items[0].name, "El nombre debería permanecer igual");
-        assertEquals(3, items[0].sellIn, "SellIn debería disminuir en 1");
-        assertEquals(50, items[0].quality, "La calidad debería aumentar en 1");
+        assertAll("properties",
+            () -> assertEquals("Queso Brie envejecido", items[0].name, "Nombre del producto"),
+            () -> assertEquals(9, items[0].sellIn, "Fecha recomendada"),
+            () -> assertEquals(5, items[0].quality, "Calidad final")
+        );
     }
 
 
-    
-    
-    
 }
