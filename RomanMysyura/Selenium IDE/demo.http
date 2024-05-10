@@ -1,0 +1,25 @@
+get http://localhost:8181/api/personas
+Accept: application/json
+
+
+###
+
+post http://localhost:8181/api/personas
+Content-Type: application/json
+
+{
+    "id": 1001,
+    "nombre": "Juan",
+    "apellidos": "Perez",
+    "edad": 30
+}
+
+###
+
+get http://localhost:8181/api/personas/1001
+Accept: application/json
+
+###
+
+get http://localhost:8181/api/peliculas
+Accept: application/json
