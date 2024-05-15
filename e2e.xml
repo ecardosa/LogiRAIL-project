@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="244" name="Pruebas de extremo a extremo" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="248" name="Solicitar autenticación">
+	<node_order><![CDATA[1000]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de solicitar autenticaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n con las credenciales inv&aacute;lidas:</p>
+
+<p>- Correo electr&oacute;nico (emma@gmail.com)</p>
+
+<p>- Contrase&ntilde;a (123)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Al ser inv&aacute;lidas la autenticaci&oacute;n no se valida, da error y vuelve al paso 1</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="251" name="Confirmación de asistencia">
+	<node_order><![CDATA[1001]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n con las credenciales v&aacute;lidas.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Autenticaci&oacute;n validada y acceso a la aplicaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Introducir tipo de asistencia, dia y la hora.</p>
+
+<p>- Entrada</p>
+
+<p>- 15/05/2024</p>
+
+<p>- 9:00</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Asistencia enviada.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Esperar la validaci&oacute;n del encargado</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Asistencia validada.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="273" name="Solicitar autenticación 2">
+	<node_order><![CDATA[1002]]></node_order>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de solicitud de autenticaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n con las credenciales v&aacute;lidas:</p>
+
+<p>- Correo electr&oacute;nico (emma@gmail.com)</p>
+
+<p>- Contrase&ntilde;a (12345678)</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Al ser v&aacute;lidas, la autenticaci&oacute;n se completa y entra a la p&aacute;gina de inicio de la aplicaci&oacute;n.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
