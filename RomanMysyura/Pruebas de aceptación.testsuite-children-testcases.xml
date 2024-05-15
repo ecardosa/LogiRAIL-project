@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase internalid="220" name="Confirmar asistencia">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mostrar&aacute; la p&aacute;gina de autenticaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autentificaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Entrar a la p&aacute;gina de asistencia</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Introducir:</p>
+
+<p>- Tipo de asistencia: Entrada</p>
+
+<p>- D&iacute;a y hora: 29/04/2024 a las 9:00.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Asistencia confirmada</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="225" name="Notificar incidencia">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de solicitud de autenticaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Entrar a la p&agrave;gina principal</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Escribir incidencia:</p>
+
+<p>- Soy la empleada Emma Cardosa Mart&iacute;nez,&nbsp;la asistencia del d&iacute;a 29/04/2024&nbsp;no se me ha verificado correctamente, pone que no asist&iacute; y s&iacute; que lo hice, gracias.</p>
+
+<p>Y enviar la incidencia</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Incidencia enviada</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="230" name="Pedir vacaciones">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de solicitud de autenticaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Entrar en la p&aacute;gina de inicio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Entrar en el calendario y darle a pedir vacaciones</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina&nbsp;de gestionar calendario</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Seleccionar los d&iacute;as deseados</p>
+
+<p>- Seleccionar d&iacute;a de comienzo, 12 de noviembre.</p>
+
+<p>- Seleccionar d&iacute;a final, 20 de noviembre.</p>
+
+<p>Enviar petici&oacute;n.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Esperar validaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="236" name="Notificar evento">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Entrar en la aplicaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de autenticaci&oacute;n&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Solicitar autenticaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina de inicio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Entrar en el calendario</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&agrave;gina del calendario</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Seleccionar d&iacute;a y hora del evento:</p>
+
+<p>&nbsp;</p>
+
+<p>- D&iacute;a 2 de mayo, todo el d&iacute;a.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Validaci&oacute;n</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Seleccionar el tipo de asistencia justificada.</p>
+
+<p>- Cita m&eacute;dica.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Validacion</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="243" name="Verificar asistencia de un empleado">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Solicitar autentificaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pantalla de inicio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Ver historial de un empleado:</p>
+
+<p>&nbsp;</p>
+
+<p>- Historial de Emma Cardosa&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>P&aacute;gina del historial del empleado</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Verificar la asistencia:</p>
+
+<p>&nbsp;</p>
+
+<p>Del d&iacute;a 29/04/2024 a las 9:00</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Verificaci&oacute;n completada</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="248" name="Dar de alta a un usuario">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Solicitar autentificaci&oacute;n</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pantalla de inicio</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Seleccionar usuario:</p>
+
+<p>- Con su DNI (4112345Z)</p>
+
+<p>- Nombre completo (Emma Cardosa Mart&iacute;nez)</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pantalla con los datos del usuario</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Dar de alta al usuario</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Recibir:</p>
+
+<p>- Correo del usuario</p>
+
+<p>- Contrase&ntilde;a del usuario</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="354" name="Acceso y Seguridad">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Los empleados deben tener acceso solo a sus propios registros de asistencia.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[<p>Guardar bien los datos</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ul>
+	<li>Los empleados deben tener acceso solo a sus propios registros de asistencia.</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Mostrar solo los datos del usuario</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
