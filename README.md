@@ -32,5 +32,5 @@ El sistema de control de asistencia LogiRAIL tiene tres usuarios finales: emplea
 # Prototipos
 ![Prototipo empleado](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/prototipo/prototipoEmpleado.png)
 
-
+![Prototipo calendario](https://github.com/joanpaneque/LogiRAIL-project/blob/main/subsistemas/prototipo/prototipoCalendario.png)
 
