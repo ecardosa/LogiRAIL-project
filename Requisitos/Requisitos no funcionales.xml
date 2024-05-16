@@ -146,5 +146,83 @@
 		</custom_fields>
 
 	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 6]]></docid>
+		<title><![CDATA[Seguridad]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>6</node_order>
+		<description><![CDATA[<p>La aplicaci&oacute;n debe garantizar que los datos personales y de asistencia de los usuarios est&eacute;n protegidos mediante el uso de cifrado durante la transmisi&oacute;n y el almacenamiento.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 7]]></docid>
+		<title><![CDATA[Mantenibilidad]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>7</node_order>
+		<description><![CDATA[<p>El c&oacute;digo fuente de la aplicaci&oacute;n debe estar bien documentado para facilitar su mantenimiento y actualizaci&oacute;n.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+	<requirement>
+		<docid><![CDATA[RNF 8]]></docid>
+		<title><![CDATA[Legalidad y Cumplimiento]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>8</node_order>
+		<description><![CDATA[<p>Debe incluir t&eacute;rminos y condiciones de uso, as&iacute; como pol&iacute;ticas de privacidad claras y accesibles para los usuarios.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[N/A]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
 </req_spec>
 </requirement-specification>
