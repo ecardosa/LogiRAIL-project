@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="306" name="Pruebas de rendimiento" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="307" name="Número de usuarios simultáneos en el momento del inicio">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Simula el inicio de sesi&oacute;n de 500 empleados justo despu&eacute;s de un reinicio del sistema para observar el comportamiento inicial y la capacidad de respuesta del sistema.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="309" name="Acceso continuo durante 8 horas:">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Realiza pruebas durante un per&iacute;odo laboral completo (por ejemplo, 8 horas) con 300 usuarios activos simult&aacute;neamente verificando asistencia, para evaluar el rendimiento durante un d&iacute;a t&iacute;pico de trabajo.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="311" name="Incremento gradual de usuarios">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Comienza con 100 usuarios y aumenta gradualmente hasta 1000 usuarios, aumentando 100 usuarios cada 30 minutos, para verificar c&oacute;mo escala la aplicaci&oacute;n</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="313" name="Tiempo de respuesta al registrar entrada/salida">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Mide el tiempo de respuesta de la aplicaci&oacute;n cuando los empleados registran su entrada o salida en momentos pico, como al inicio y al final de la jornada laboral</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="315" name="Uso continuo por 24 horas">
+	<node_order><![CDATA[1004]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Opera la aplicaci&oacute;n bajo una carga moderada de 200 usuarios durante 24 horas seguidas para detectar posibles problemas de memoria o fugas de recursos que podr&iacute;an causar inestabilidad</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="387" name="Acciones simultáneas para un mismo usuario">
+	<node_order><![CDATA[1005]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Simula a un usuario intentando realizar m&uacute;ltiples solicitudes de verificaci&oacute;n de asistencia al mismo tiempo desde dispositivos diferentes para ver c&oacute;mo gestiona la aplicaci&oacute;n estas solicitudes concurrentes</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="389" name="Registros de entrada/salida por segundo durante la hora pico">
+	<node_order><![CDATA[1006]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Mide cu&aacute;ntos registros de entrada y salida puede procesar la aplicaci&oacute;n por segundo en el momento de mayor actividad.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="427" name="Registro de entrada mediante la aplicación móvil:">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se mide el tiempo que tarda el sistema en registrar la entrada de un empleado a trav&eacute;s de la aplicaci&oacute;n m&oacute;vil.</li>
+	<li>Pasos: Varios empleados registran su entrada simult&aacute;neamente y se registra el tiempo que tarda el sistema en procesar cada registro.</li>
+	<li>Resultado esperado: El sistema registra las entradas de manera eficiente, sin retrasos significativos.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="429" name="Registro de salida mediante terminal de registro:">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[43]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se eval&uacute;a la velocidad con la que el sistema registra la salida de los empleados a trav&eacute;s de los terminales de registro.</li>
+	<li>Pasos: Varios empleados registran su salida simult&aacute;neamente y se registra el tiempo que tarda el sistema en procesar cada registro.</li>
+	<li>Resultado esperado: El sistema registra las salidas de manera r&aacute;pida y sin demoras notables.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="431" name="Consulta de horarios en la aplicación móvil:">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[44]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se mide el tiempo que tarda el sistema en mostrar los horarios de trabajo de los empleados en la aplicaci&oacute;n m&oacute;vil.</li>
+	<li>Pasos: Varios empleados consultan sus horarios de manera simult&aacute;nea y se registra el tiempo que tarda el sistema en cargar la informaci&oacute;n.</li>
+	<li>Resultado esperado: El sistema muestra los horarios de manera r&aacute;pida y eficiente, incluso bajo carga simult&aacute;nea.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="433" name="Generación de informes de asistencia mensual:">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[45]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se eval&uacute;a el tiempo que tarda el sistema en generar informes mensuales de asistencia para todos los empleados.</li>
+	<li>Pasos: Se solicita la generaci&oacute;n de un informe mensual y se registra el tiempo que tarda el sistema en completar la tarea.</li>
+	<li>Resultado esperado: El sistema genera los informes de manera r&aacute;pida, incluso cuando se trata de grandes vol&uacute;menes de datos.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="435" name="Análisis de puntualidad de empleados:">
+	<node_order><![CDATA[1011]]></node_order>
+	<externalid><![CDATA[46]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se eval&uacute;a el tiempo que tarda el sistema en realizar an&aacute;lisis detallados de la puntualidad de los empleados.</li>
+	<li>Pasos: Se selecciona un periodo de tiempo y se solicita el an&aacute;lisis de puntualidad para un grupo de empleados.</li>
+	<li>Resultado esperado: El sistema realiza el an&aacute;lisis de manera eficiente, incluso con grandes conjuntos de datos.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="437" name="Integración con el sistema de nóminas:">
+	<node_order><![CDATA[1012]]></node_order>
+	<externalid><![CDATA[47]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se eval&uacute;a el tiempo que tarda el sistema en integrar los registros de asistencia con el sistema de n&oacute;minas.</li>
+	<li>Pasos: Se realizan registros de entrada y salida, y se verifica la actualizaci&oacute;n en el sistema de n&oacute;minas.</li>
+	<li>Resultado esperado: La integraci&oacute;n se realiza de manera r&aacute;pida y los registros se reflejan inmediatamente en el sistema de n&oacute;minas.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+
+<testcase internalid="439" name="Validación de acceso a la aplicación móvil:">
+	<node_order><![CDATA[1013]]></node_order>
+	<externalid><![CDATA[48]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<ul>
+	<li>Descripci&oacute;n: Se eval&uacute;a el tiempo que tarda el sistema en validar las credenciales de acceso de los empleados.</li>
+	<li>Pasos: Varios empleados intentan acceder simult&aacute;neamente y se registra el tiempo que tarda el sistema en procesar cada solicitud.</li>
+	<li>Resultado esperado: El sistema valida las credenciales de manera r&aacute;pida y eficiente.</li>
+</ul>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+
+</testcase>
+</testsuite>

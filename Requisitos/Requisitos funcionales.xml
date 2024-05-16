@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <requirement-specification>
-<req_spec title="LogiRAIL-project"  doc_id="REQ001"  >
-	<revision><![CDATA[1]]></revision>
-	<type><![CDATA[1]]></type>
-	<node_order><![CDATA[0]]></node_order>
-	<total_req><![CDATA[0]]></total_req>
-	<scope><![CDATA[<p>El proyecto es una aplicaci&oacute;n dise&ntilde;ada para facilitar la gesti&oacute;n de la asistencia de trabajadores en una oficina. La aplicaci&oacute;n cuenta con dos roles principales: trabajadores y encargados.</p>]]></scope>
-		<custom_fields>
-			<custom_field>
-			<name><![CDATA[Prioridad Especificación]]></name>
-			<value><![CDATA[]]></value>
-			</custom_field>
-			<custom_field>
-			<name><![CDATA[Riesgo Especificación]]></name>
-			<value><![CDATA[]]></value>
-			</custom_field>
-		</custom_fields>
 <req_spec title="Requisitos Funcionales"  doc_id="RF"  >
 	<revision><![CDATA[1]]></revision>
 	<type><![CDATA[1]]></type>
@@ -1483,24 +1467,6 @@ Desde este apartado se podr&aacute;n dar de alta o de baja a los usuarios.</p>]]
 		</custom_fields>
 
 	</requirement>
-</req_spec>
-</req_spec>
-<req_spec title="Requisitos de Datos"  doc_id="RD"  >
-	<revision><![CDATA[1]]></revision>
-	<type><![CDATA[1]]></type>
-	<node_order><![CDATA[2]]></node_order>
-	<total_req><![CDATA[0]]></total_req>
-	<scope><![CDATA[]]></scope>
-		<custom_fields>
-			<custom_field>
-			<name><![CDATA[Prioridad Especificación]]></name>
-			<value><![CDATA[]]></value>
-			</custom_field>
-			<custom_field>
-			<name><![CDATA[Riesgo Especificación]]></name>
-			<value><![CDATA[]]></value>
-			</custom_field>
-		</custom_fields>
 </req_spec>
 </req_spec>
 </requirement-specification>
